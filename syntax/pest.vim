@@ -3,7 +3,7 @@ syntax keyword pestTodo contained TODO FIXME XXX NOTE
 syntax match pestComment "\/\/.*$" contains=celTodo
 
 " Rule names
-syntax match pestName "^[a-z_][a-z0-9_]*"
+syntax match pestName "^[A-Za-z_][A-Za-z0-9_]*"
 
 " String types
 syntax region pestString start=/"/ skip=/\\\\\|\\"/ end=/"/ oneline contained
